@@ -15,7 +15,7 @@ losAngelesTimeElement.innerHTML = losAngelesTime.format(
 
 let parisElement = document.querySelector("#paris");
 let parisDateElement = parisElement.querySelector(".date");
-if (parislementlength){
+if (parisElement){
 let parisTimeElement = parisElement.querySelector(".time");
 let parisTime =moment().tz("Europe/paris");
 
